@@ -1,7 +1,3 @@
-Here's a short README for your **Upload File Application**:
-
----
-
 # File Uploader Application
 
 ## Overview
