@@ -11,7 +11,7 @@ storage_name = os.getenv("AZURE_CONTAINER_NAME")
 app = Flask(__name__)
 
 app.config["UPLOAD_FOLDER"] = "uploads"
-app.config["ALLOWED_EXTENSIONS"] = {"txt", "pdf", "png", "jpg", "jpeg", "gif"}
+app.config["ALLOWED_EXTENSIONS"] = {"txt", "pdf", "png", "jpg", "jpeg", "gif", "tiff", "tif", "psd", "webm", "wav"}
 
 #azure storage config
 STORAGE_ACCOUNT_CONNECTION_STRING = connection_string
